@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Paintings Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Paintings Gallery</h1>
+    </header>
+    <section class="filters">
+        <button data-filter="all">All</button>
+        <button data-filter="renaissance">Renaissance</button>
+        <button data-filter="impressionism">Impressionism</button>
+        <button data-filter="modern">Modern Art</button>
+        <button data-filter="baroque">Baroque</button>
+        <button data-filter="surrealism">Surrealism</button>
+    </section>
+    <section class="gallery">
+        <div class="image renaissance"><img src="mona.jpg" alt="Mona Lisa"></div>
+        <div class="image renaissance"><img src="lastsupper.webp" alt="The Last Supper"></div>
+        <div class="image impressionism"><img src="starry.jpg" alt="Starry Night"></div>
+        <div class="image impressionism"><img src="water.jpg" alt="Water Lilies"></div>
+        <div class="image modern"><img src="memory.jpg" alt="The Persistence of Memory"></div>
+        <div class="image modern"><img src="PicassoGuernica.jpg" alt="Guernica"></div>
+        <div class="image baroque"><img src="pearl.jpg" alt="Girl with a Pearl Earring"></div>
+        <div class="image baroque"><img src="night.jpg" alt="The Night Watch"></div>
+        <div class="image surrealism"><img src="son.jpg" alt="The Son of Man"></div>
+        <div class="image surrealism"><img src="elephants.jpg" alt="The Elephants"></div>
+    </section>
+    
+    <div class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" src="" alt="Large View">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="lab9.js"></script>
+</body>
+</html>
